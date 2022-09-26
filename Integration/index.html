@@ -5,24 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MON PORTFOLIO</title>
-    <link rel="stylesheet" href="style.css"
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header> 
-        
-    </header>
-    <h1 align="center">MON PORTFOLIO</h1>
-    <nav> class="menu">
-        <ul>
-            <a href="#Projets"><h3>PROJET1</h3></a>
-            <a href="#Etudes"><h3>ETUDES</h3></a>
-            <a href="#Articles"><h3>ARTICLES</h3></a>
-            <a href="#Contact"><h3>CONTACT</h3></a>
+    <h3> Mon Portfolio </h3>
+    <nav>
+        <ul class="navbar">
+            <div>
+                <a href="#"><h3>PROJET1</h3></a>
+            </div>
+            <div>
+                <a href="#"><h3>ETUDES</h3></a>
+            </div>
+            <div>
+                <a href="#"><h3>ARTICLES</h3></a>
+            </div>
+            <div>
+                <a href="#"><h3>CONTACT</h3></a>
+            </div>
         </ul>
     </nav>
-    </ul>
     <main>
-        <!-- Partie 1ere image -->
+        <!-- Partie 1ere image -- >
         <p>premiere image enveloppe </p>
         <section>
             <div class="image1">
@@ -100,5 +104,26 @@
             </div>  
         </section>
     </main>
+    <form action="/ma-page-de-traitement" method="post">
+        <div>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <div>
+            <label for="mail">e-mail&nbsp;:</label>
+            <input type="email" id="mail" name="user_mail">
+        </div>
+        <div>
+            <label for="msg">Message :</label>
+            <textarea id="msg" name="user_message"></textarea>
+        </div>
+    </form>
+    <div class="button">
+        <button type="submit">Envoyer le message</button>
+    </div>
+
+    <footer>
+        <p> pied de page </p>
+    </footer>
 </body>
 </html>
