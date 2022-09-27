@@ -4,9 +4,125 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MON PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    Bonjour toto !
+    <header>
+        <h3> Mon Portfolio </h3>
+        <nav>
+            <ul class="navbar">
+                <div>
+                    <a href="#"><h3>PROJET1</h3></a>
+                </div>
+                <div>
+                    <a href="#"><h3>ETUDES</h3></a>
+                </div>
+                <div>
+                    <a href="#"><h3>ARTICLES</h3></a>
+                </div>
+                <div>
+                    <a href="#"><h3>CONTACT</h3></a>
+                </div>
+            </ul>
+        </nav>
+        <p>Présentation</p>
+            <!-- image 1 -->
+            <img src="https://via.placeholder.com/450x150">
+        </header>
+
+    <main>
+        <! -- Partie Projets réalisés -->
+        <section>
+            <h2>PROJETS REALISES</h2>
+            <div class="projets">
+                <div class="3images">
+                    <a href="https://placeholder.com"><img src="https://via.placeholder.com/150" alt="Projet1"></a>
+                    <a href="https://placeholder.com"><img src="https://via.placeholder.com/150" alt="Projet2"></a>
+                    <a href="https://placeholder.com"><img src="https://via.placeholder.com/150" alt="Projet3"></a>
+                </div>
+                <div class="paragraphe">
+                    <h4>PROJET1</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.</p>
+                    <h4>PROJET2</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.</p>
+                    <h4>PROJET2</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Partie Etudes -->
+        <section>
+            <h2>ETUDES</h2> 
+            <div class="etudes">
+               <div class="info-perso">
+                    <p>Nom :</p>
+                    <p>Prénom:</p>
+               </div>
+               <div class="age">
+                    <p>Age :</p>
+               </div>
+               <div class="numéro-tél">
+                    <p>Téléphone :</p>
+                    <p>06 34 33 32 31</p>
+               </div>
+               <div class="adrmail">
+                <p>Mail :</p>
+               </div>
+            </div>  
+        </section>
+        <!-- Partie Articles -->
+        <section>
+            <h2>ARTICLES</h2> 
+            <div class="articles">
+                <div class="2images">
+                    <a href="https://placeholder.com"><img src="https://via.placeholder.com/150" alt="Projet1"></a>
+                    <a href="https://placeholder.com"><img src="https://via.placeholder.com/150" alt="Projet2"></a>
+                </div>
+                <div class="2Articles">
+                    <h4>Article1</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.</p>
+                <div>
+                    <input type="button" value="Lire">
+                    <input type="button" value="Commentaires">
+                </div>
+                    <h4>Article2</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.</p>
+                </div>
+                <div>
+                    <input type="button" value="Lire">
+                    <input type="button" value="Commentaires">
+                </div>
+            </div>  
+        </section>
+        <!-- Partie Contact -->
+        <section>
+            <h2>CONTACT</h2>
+            <div class="contact">
+         
+            </div>  
+        </section>
+    </main>
+    <form action="/ma-page-de-traitement" method="post">
+        <div>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <div>
+            <label for="mail">e-mail&nbsp;:</label>
+            <input type="email" id="mail" name="user_mail">
+        </div>
+        <div>
+            <label for="msg">Message :</label>
+            <textarea id="msg" name="user_message"></textarea>
+        </div>
+    </form>
+    <div class="button">
+        <button type="submit">Envoyer le message</button>
+    </div>
+
+    <footer>
+        <p> pied de page </p>
+    </footer>
 </body>
 </html>
